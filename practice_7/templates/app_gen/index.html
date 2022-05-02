@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends "app_gen/base.html" %}
+{% load custom_tags %}
+
+  {% block title %}
+  <title>Index</title>
+  {% endblock %}
+
+  {% block body_block %}
+  <h1>Welcome to Index</h1>
+  <h1>{{text|do_a_cut:'Hello'}}</h1>
+  {% endblock %}

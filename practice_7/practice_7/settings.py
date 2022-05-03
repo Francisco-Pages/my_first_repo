@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-@3@h)64+85dllqwt(rnj%10^&*w&%28%ko3p-n67irccqyh458
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['rooibosk.pythonanywhere.com']
 
 
 # Application definition
